@@ -1,0 +1,36 @@
+.header
+ z-index: 999
+ &-wrap
+  display: flex
+  padding-top: 24px
+  align-items: center
+ &-logo
+  max-width: 100%
+  margin-right: 63px
+ &-nav
+  &__bar
+   width: 720px
+   list-style-type: none
+   display: flex
+   +rmedium
+   align-items: center
+   &__element
+    margin-top: -5px
+    font-size: 13px
+    line-height: 28px
+    text-transform: uppercase
+    padding-right: 22px
+    padding-left: 23px
+    border-right: dotted 1px $border 
+    height: 31px
+    &:first-child
+     padding-left: 0
+    &:last-child
+     border: none
+    a
+     color: $text-nav
+     &:hover
+      color: $primary-color
+      cursor: pointer
+.knop
+ display: none

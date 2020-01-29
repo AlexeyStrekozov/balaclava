@@ -1,0 +1,121 @@
+html
+ overflow-x: hidden
+*
+ margin: 0
+ padding: 0
+button
+ outline: none
+ cursor: pointer
+a
+ text-decoration: none
+ outline: none
+.closeAbout
+  display: none
+.oneAttraction
+ color: #000
+ &:hover
+  color: #000000
+.open
+  display: block
+.input
+ outline: none
+ width: 267px
+ height: 50px
+ padding-left: 48px
+ border: 1px solid $input-border
+ font-size: 12px
+ line-height: 24px
+ +rlight
+ &-name
+  background-image: url("../img/form/name.png")
+  background-repeat: no-repeat
+  background-position-x: 16px
+  background-position-y: 13px
+ &-tel
+  background-image: url("../img/form/phone.png")
+  background-repeat: no-repeat
+  background-position-x: 16px
+  background-position-y: 13px
+ &-email
+  background-image: url("../img/form/maile.png")
+  background-repeat: no-repeat
+  background-position-x: 16px
+  background-position-y: 16px
+.textarea
+ outline: none
+ width: 925px
+ height: 85px
+ padding-left: 48px
+ padding-top: 10px
+ border: 1px solid $input-border
+ font-size: 12px
+ line-height: 24px
+ +rlight
+ background-image: url("../img/form/text.png")
+ background-repeat: no-repeat
+ background-position-x: 18px
+ background-position-y: 13px
+.container
+ width: 1140px
+ margin: 0 auto
+.center
+ text-align: center
+.button
+ padding: 12px 30px
+ width: 198px
+ border: 2px solid
+ border-radius: 50px
+ border-color: $white
+ background: transparent
+ color: $white
+ +rlight
+ line-height: 28px
+ text-transform: uppercase
+ font-size: 13px
+ &:hover
+  border-color: $primary-color
+  color: $primary-color
+ &-dark
+  border: 5px solid $primary-color
+  background: $primary-color
+  &:hover
+   border-color: darken($primary-color, 10%)
+   background: darken($primary-color, 10%)
+   color: $white
+.success
+ display: none
+ position: fixed
+ width: 100%
+ height: 100%
+ background-color: rgba(#000, 0.52)
+ left: 0
+ top: 0
+ z-index: 100
+ &_visible
+  display: flex
+ &__dialog
+  width: 500px 
+  height: 250px
+  background-color: #fff
+  margin: auto
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  text-align: center
+  background-color: $primary-color
+  color: #000000
+  +rlight
+ &__close
+  position: absolute
+  top: 15px
+  right: 15px
+  &:hover
+   cursor: pointer
+.buttonRent
+  border: 5px solid #808080
+
+.bathhouse__button
+ border: 5px solid #f3f3f5
+
+ 

@@ -1,0 +1,45 @@
+.slide
+ padding: 69px 0
+ background-color: $primary-bk
+ &-top
+  margin-bottom: 23px
+  &__wrap
+   max-width: 1140px
+   height: 100%
+   img
+    object-fit: fill
+    width: 100%
+    max-height: 500px
+ &-bottom
+  max-width: 1100px
+  margin: 0 auto
+  .slick-track
+   margin-left: 190px
+ &-item
+  height: 108px
+  width: 100%
+  filter: brightness(0.5)
+  &:hover
+   cursor: pointer
+  img
+   height: 100%
+.img-fluid
+ width: 172px
+.slick-prev
+ &:before
+  content: ''
+  display: block
+  color: #000
+  background: url('../img/reant/slide/down.png') no-repeat
+  height: 25px
+  margin-left: 6px
+.slick-next
+ &:before
+  content: ''
+  display: block
+  color: #000
+  background: url('../img/reant/slide/next.png') no-repeat
+  height: 25px
+  margin-left: 6px
+.slick-current
+ filter: initial

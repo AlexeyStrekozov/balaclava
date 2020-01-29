@@ -1,0 +1,63 @@
+.feedback
+ padding: 76px
+ border-bottom: 5px solid $border
+ &-wrap
+  display: flex
+ &-form
+  &__title
+   margin-top: 3px
+   margin-left: 4px
+   margin-bottom: 30px
+   font-size: 19px
+   line-height: 17px
+   +rlight
+  &__wrap
+   width: 851px
+   display: flex
+   flex-wrap: wrap
+   justify-content: space-between
+ &-network
+  padding-left: 25px
+.network
+ background: #3b5a9b
+ padding: 0 95px 0 0
+ display: flex
+ align-items: center
+ text-transform: uppercase
+ font-size: 13px
+ color: $white
+ max-height: 50px
+ border: 1px solid
+ margin-bottom: 3px
+ max-width: 
+ &:before
+  content: ''
+  position: absolute
+  height: 52px
+  margin-top: 5px
+  margin-left: 43px
+  border-left: 1px solid $white
+ img
+  width: 19px
+  height: 42px
+  padding: 0 30px 0 13px
+  object-fit: none 
+.fb
+ &:hover
+  transition: all .2s ease
+  background: darken(#3b5a9b, 10%)
+.vk
+ background: #4c75a3
+ &:hover
+  transition: all .2s ease
+  background: darken(#4c75a3, 10%)
+.google
+ background: #dc4a38
+ &:hover
+  transition: all .2s ease
+  background: darken(#dc4a38, 10%)
+.input-feedback
+ width: 365px
+ margin-bottom: 18px
+.textarea-feedback
+ width: 801px

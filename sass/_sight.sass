@@ -1,0 +1,65 @@
+.sight
+ padding: 20px 0 54px
+ border-bottom: 5px solid $border
+ &-wrap
+  text-align: center
+  
+  &__block
+   margin-top: 43px
+   display: flex
+   justify-content: space-between
+   margin-bottom: 30px
+   &__card
+    background-color: $primary-bk
+    max-width: 360px
+    height: 378px
+    text-align: left
+    border-bottom: 3px solid $background-border
+    &:hover
+     cursor: pointer
+     border-color: $primary-color
+    &:hover
+      &:before
+       content: ""
+       position: absolute
+       width: 40px
+       height: 2px
+       border-bottom: 2px solid $primary-title
+       margin-top: 266px 
+       margin-left: 23px
+       z-index: 3
+    &__imge
+     margin-bottom: 15px
+    &__text
+     padding-left: 22px
+    &__date
+     font-size: 14px
+     line-height: 24px
+     +rlight
+     color: $shadow-text
+     margin-bottom: 26px
+     &:before
+      content: ""
+      position: absolute
+      width: 40px
+      height: 2px
+      border-bottom: 2px solid $strip
+      margin-top: 27px  
+     
+    &__name
+     font-size: 19px
+     line-height: 24px
+     +rbold   
+ &-title
+  font-size: 30px
+  line-height: 24px
+  +rbold 
+  color: $primary-title
+  margin-bottom: 15px
+ &-subtitle
+  width: 764px
+  font-size: 16px
+  line-height: 24px
+  +rlight
+  margin: 0 auto
+  
